@@ -1,4 +1,5 @@
 var mysql = require('mysql');
+var mysql2 = require('mysql2');
 
 var connection;
 
