@@ -1,0 +1,95 @@
+html {
+    background-color: rgb(255, 81, 0);
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0.22,0.22,0.22,0.22);
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+#lefthead {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+
+#righthead {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 65px;
+    margin: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+   margin: 50px;
+}
+
+.burgerMenu {
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #7473b6;
+    border: none;
+}
+
+.burgerMenu:hover {
+    background-color: #7473b6;
+}
+
+.devouredBurger {
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 81, 0);
+}
+
+.formContainer {
+    background-color: rgb(255, 81, 0);
+}
+
+.addBurger {
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(255, 81, 0);
+    border: none;
+}
+
+.addBurger:active {
+   background-color: rgb(255, 81, 0);
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
