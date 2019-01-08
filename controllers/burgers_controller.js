@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
     res.render('index', hbsObject);
   });
 });
-
+// plugging in the new burger name
 router.post('/burgers', function(req, res) {
   burger.insertOne([
     'burger_name',
@@ -24,7 +24,7 @@ router.post('/burgers', function(req, res) {
     res.redirect('/');
   });
 });
-
+// changing the devour value
 router.put('/burgers/:id', function(req, res) {
   var condition = 'id = ' + req.params.id;
 

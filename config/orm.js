@@ -19,7 +19,7 @@ function objToSql(ob) {
 
 	return arr.toString();
 }
-
+// load the data
 var orm = {
 	selectAll: function(table, cb) {
 		var queryString = "SELECT * FROM " + table + ";";
@@ -32,7 +32,7 @@ var orm = {
 			cb(result);
 		});
 	},
-
+// insert a new burger
 	insertOne: function(table, cols, vals, cb) {
 		var queryString = "INSERT INTO " + table;
 
@@ -52,7 +52,7 @@ var orm = {
 			cb(result);
 		});
 	},
-
+// devouring the burger
 	updateOne: function(table, objColVals, condition, cb) {
 		var queryString = "UPDATE " + table;
 
